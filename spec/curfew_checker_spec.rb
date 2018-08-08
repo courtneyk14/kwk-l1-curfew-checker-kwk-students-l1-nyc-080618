@@ -18,7 +18,7 @@ describe "#curfew_checker" do
 
 
   it "should say you're in trouble if it's 11" do 
-    expect(curfew_checker(11)).to eq("You're in trouble! Better get home quick!")
+    expect(curfew_checker(11)).to eq("You're in trouble! Better get home quick")
     
   end
 
